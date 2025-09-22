@@ -59,7 +59,6 @@ function App() {
     const thumbImg6 = findImageByName(gameGlob, 'thumb6');
     const thumbImg7 = findImageByName(gameGlob, 'thumb7');
     const thumbImg8 = findImageByName(gameGlob, 'thumb8');
-    const thumbImg9 = findImageByName(gameGlob, 'thumb9');
     return [
       {
         name: 'Build A Boat',
@@ -108,12 +107,6 @@ function App() {
         link: 'https://www.roblox.com/games/114113024880209/Sisyphus-Training-Squid',
         img: thumbImg8,
         stats: [{ label: 'Visits', value: '33M+' }]
-      },
-      {
-        name: 'Survive Overnight in a Mega Store',
-        link: 'https://www.roblox.com/games/127380660530951/Survive-Overnight-in-a-Mega-Store',
-        img: thumbImg9,
-        stats: [{ label: 'Visits', value: '223M+' }]
       },
     ];
   }, [gameGlob]);
