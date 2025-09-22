@@ -153,7 +153,7 @@ useEffect(() => {
   return (
     <div className="app">
       <nav className="nav">
-        <img id="logo" src={Logo} alt="Juanvioux Logo" />
+        <img id="logo" src={Logo} alt="JuanArtxz Logo" />
         <div className={`menu-toggle ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <span></span><span></span><span></span>
         </div>
